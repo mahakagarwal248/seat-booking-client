@@ -1,0 +1,59 @@
+.seatChart {
+  position: absolute;
+  left: 36%;
+  margin: auto;
+  border: 2px solid black;
+  padding: 22px;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.seat {
+  height: 28px;
+  width: 28px;
+  background: orange;
+  margin: 10px 11px;
+  text-align: center;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.selectedSeat {
+  height: 28px;
+  width: 28px;
+  background: blue;
+  margin: 10px 11px;
+  text-align: center;
+  border-radius: 7px;
+  cursor: pointer;
+  color: white;
+}
+
+.bookedSeat {
+  height: 28px;
+  width: 28px;
+  background: red;
+  margin: 10px 11px;
+  text-align: center;
+  border-radius: 7px;
+  cursor: pointer;
+  color: white;
+}
+
+.submitSeatBtn {
+  margin-top: 15px;
+  border-radius: 5px;
+  height: 36px;
+  width: 150px;
+  background-color: rgb(149, 194, 239);
+  font-weight: bold;
+}
+.closeBtn{
+  float: right;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 2px 9px;
+}
